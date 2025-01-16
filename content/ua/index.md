@@ -11,3 +11,4 @@ description = "Головна сторінка Nubecita"
 
 <a href="https://espinacco.es"><button>Espinacco</button></a>
 <a href="https://felipe.nubecita.eu"><button>Felipe's Blog</button></a>
+<a href="https://nubecita.eu/coctelera/api/v0/"><button>La Coctelera REST API</button></a>

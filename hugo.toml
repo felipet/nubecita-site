@@ -3,6 +3,7 @@ languageCode = 'en-us'
 title = "Nubecita's Directory"
 theme = 'terminal'
 showLanguageSelector = true
+copyright = "© 2025 - Felipe Torres González"
 
 [markup.goldmark.renderer]
   unsafe = true
@@ -11,7 +12,7 @@ showLanguageSelector = true
   centerTheme = true
   favicon = '/favicon.png'
   email = 'admin@nubecita.eu'
-  
+
 [outputs]
   home = ['html']
   page = ['html']
@@ -29,7 +30,6 @@ showLanguageSelector = true
       subtitle = "Site directory of Nubecita"
       owner = "Felipe Torres González"
       keywords = ""
-      copyright = "Felipe Torres González 2024-2025"
       menuMore = "Show more"
       missingContentMessage = "Page not found..."
       missingBackButtonLabel = "Back to home page"
@@ -38,7 +38,7 @@ showLanguageSelector = true
       [languages.en.params.logo]
         logoText = "Nubecita's Directory"
         logoHomeLink = "/"
-        
+
       [languages.en.menu]
         [[languages.en.menu.main]]
           identifier = "Español"
@@ -48,7 +48,7 @@ showLanguageSelector = true
           identifier = "Ukranian"
           name = "Українська"
           url = "/ua"
-        
+
 
   [languages.es]
     languageName = "Spanish"
@@ -62,7 +62,6 @@ showLanguageSelector = true
       subtitle = "El directorio de sitios de Nubecita"
       owner = "Felipe Torres González"
       keywords = ""
-      copyright = "Felipe Torres González 2024-2025"
       menuMore = "Mostrar más"
       missingContentMessage = "Página no encontrada..."
       missingBackButtonLabel = "Volver al principio"
@@ -71,7 +70,7 @@ showLanguageSelector = true
       [languages.es.params.logo]
         logoText = "Directorio de Nubecita"
         logoHomeLink = "/"
-      
+
       [languages.es.menu]
         [[languages.es.menu.main]]
           identifier = "English"
@@ -81,15 +80,14 @@ showLanguageSelector = true
           identifier = "Ucraniano"
           name = "Українська"
           url = "/ua"
-          
-          
+
+
   [languages.ua]
     languageName = "Ukranian"
     title = "Directorio de Nubecita"
     contentDir = 'content/ua'
     weight = 1
     disabled = false
-    copyright = "© 2024-2025 Felipe Torres González - Page made with Hugo"
 
     [languages.ua.params]
       subtitle = "El directorio de sitios de Nubecita"
@@ -103,7 +101,7 @@ showLanguageSelector = true
       [languages.ua.params.logo]
         logoText = "Головна сторінка Nubecita"
         logoHomeLink = "/"
-      
+
       [languages.ua.menu]
         [[languages.ua.menu.main]]
           identifier = "English"
